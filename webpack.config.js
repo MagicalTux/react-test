@@ -25,6 +25,7 @@ module.exports = {
   plugins: [
     new ZipPlugin({
       filename: 'final.zip',
+      pathPrefix: 'dist',
     })
   ]
 };
